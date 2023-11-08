@@ -1,6 +1,6 @@
 const { createSlice } = require("@reduxjs/toolkit");
 
-const filterSlise = createSlice({
+const filterSliсe = createSlice({
     name: "filter",
     initialState: { value: "" },
     reducers: { onChangeFilter(state, action) {
@@ -9,5 +9,5 @@ const filterSlise = createSlice({
     },
 })
 
-export const filterReducer = filterSlise.reducer;
-export const { onChangeFilter } = filterSlise.actions;
+export const filterReducer = filterSliсe.reducer;
+export const { onChangeFilter } = filterSliсe.actions;

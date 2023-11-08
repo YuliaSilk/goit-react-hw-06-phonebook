@@ -19,7 +19,7 @@ export const App = () => {
       <ContactsContainer>
       <ContactHeaderStyle>Contacts</ContactHeaderStyle>
       <Filter />
-      {contacts.lenght > 0 && (  <ContactList />)}
+      {contacts.length > 0 && (  <ContactList />)}
       </ContactsContainer>
     </PhonebookContainer>
   )
